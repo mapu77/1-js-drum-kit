@@ -1,0 +1,45 @@
+html, body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url(https://www.metalinsider.net/site/wp-content/uploads/2018/02/bigstock_silhouettes_of_concert_crowd-Recovered-1024x566.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.key {
+  display: inline-block;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 66.5px;
+  margin: 0 0.5rem;
+  transition: all 0.05s;
+  -moz-transition: all 0.05s;
+  cursor: pointer;
+}
+
+.key:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+div.key > p {
+  font-size: 24pt;
+  margin: 0 0;
+  color: white;
+}
+
+div.key > span {
+  font-size: 12pt;
+  color: gold;
+}
