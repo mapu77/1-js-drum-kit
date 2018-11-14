@@ -25,13 +25,13 @@ body {
   margin: 0 0.5rem;
   transition: all 0.05s;
   -moz-transition: all 0.05s;
-  cursor: pointer;
 }
 
 .press {
   transform: scale(1.1);
   -moz-transform: scale(1.1);
-  box-shadow: 0 0 1px black;
+  box-shadow: 0 0 10px gold;
+  border-color: gold;
 }
 
 div.key > p {
@@ -43,4 +43,8 @@ div.key > p {
 div.key > span {
   font-size: 12pt;
   color: gold;
+}
+
+audio {
+  display: none;
 }
