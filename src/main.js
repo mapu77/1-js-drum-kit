@@ -25,6 +25,7 @@ document.addEventListener('keyup', function (event) {
 
 function playSound(keyPressed) {
   var sound = document.getElementById('audio-' + keyMap[keyPressed]);
+  sound.currentTime = 0;
   sound.play();
 }
 
