@@ -1,0 +1,25 @@
+{
+  "name": "1-js-drum-kit",
+  "version": "1.0.0",
+  "description": "Day 1 of JavaScript 30 days challenge https://github.com/mapu77/js-30-days-challenge",
+  "main": "main.js",
+  "directories": {
+    "test": "src"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapu77/1-js-drum-kit.git"
+  },
+  "author": "Eduard Maura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapu77/1-js-drum-kit/issues"
+  },
+  "homepage": "https://github.com/mapu77/1-js-drum-kit#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
